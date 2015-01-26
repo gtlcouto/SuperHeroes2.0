@@ -13,6 +13,7 @@
 		2394A6BC19BB88FB00A6B6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2394A6BA19BB88FB00A6B6BE /* Main.storyboard */; };
 		2394A6BE19BB88FB00A6B6BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2394A6BD19BB88FB00A6B6BE /* Images.xcassets */; };
 		2394A6CA19BB88FB00A6B6BE /* SuperHeroPediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394A6C919BB88FB00A6B6BE /* SuperHeroPediaTests.m */; };
+		350829D51A76C54E0000B45A /* SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 350829D41A76C54E0000B45A /* SuperHero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		2394A6C319BB88FB00A6B6BE /* SuperHeroPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperHeroPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2394A6C819BB88FB00A6B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2394A6C919BB88FB00A6B6BE /* SuperHeroPediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHeroPediaTests.m; sourceTree = "<group>"; };
+		350829D31A76C54E0000B45A /* SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHero.h; sourceTree = "<group>"; };
+		350829D41A76C54E0000B45A /* SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		2394A6AF19BB88FB00A6B6BE /* SuperHeroPedia */ = {
 			isa = PBXGroup;
 			children = (
+				350829D21A76C5370000B45A /* Model */,
 				2394A6B419BB88FB00A6B6BE /* AppDelegate.h */,
 				2394A6B519BB88FB00A6B6BE /* AppDelegate.m */,
 				2394A6B719BB88FB00A6B6BE /* ViewController.h */,
@@ -114,6 +118,15 @@
 				2394A6C819BB88FB00A6B6BE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350829D21A76C5370000B45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				350829D31A76C54E0000B45A /* SuperHero.h */,
+				350829D41A76C54E0000B45A /* SuperHero.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +231,7 @@
 				2394A6B919BB88FB00A6B6BE /* ViewController.m in Sources */,
 				2394A6B619BB88FB00A6B6BE /* AppDelegate.m in Sources */,
 				2394A6B319BB88FB00A6B6BE /* main.m in Sources */,
+				350829D51A76C54E0000B45A /* SuperHero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +416,7 @@
 				2394A6CF19BB88FB00A6B6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2394A6D019BB88FB00A6B6BE /* Build configuration list for PBXNativeTarget "SuperHeroPediaTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +425,7 @@
 				2394A6D219BB88FB00A6B6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
